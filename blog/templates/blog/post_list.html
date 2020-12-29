@@ -21,7 +21,9 @@
     </ul>
     <div color="Blue">
       <h5><a href="#">Django Girls Blog</a></h5>
-      {{ posts }}
+      {% for post in posts %}
+    {{ post }}
+{% endfor %}
     </div>
 
   </body>
