@@ -1,6 +1,8 @@
 def hi():
     print('hello world')
     print('Welcome to Shruti Codespace....')
+
+    print('test 1')
     return 0
 
 def name(username):
